@@ -9,7 +9,7 @@ Michael Wilson - https://github.com/Mike-Wil
 
 # Dependencies:
 inquirer, mysql
-
+    
 ## Work Flow
 1. Run `node bamazonCustomer.js`
 
