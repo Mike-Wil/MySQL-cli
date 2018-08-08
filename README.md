@@ -14,13 +14,17 @@ inquirer, mysql
 1. Run `node bamazonCustomer.js`
 
 2. Enter the ID of the item you wish to purchase:
+
 ![enter-id](/screenshots/initialState.PNG?raw=true "Choose Item.")
 
 3. Enter the quantity you desire:
+
 ![enter-quantity](/screenshots/quantityPrompt.PNG?raw=true "Choose Quantity.")
 
 4. If there is sufficient remaining stock, the transaction will process and total price will return:
+
 ![success](/screenshots/successState.PNG?raw=true "Stock updated and cart cost displayed.")
 
 If there is insufficient remaining stock, the transaction will not process and you will be alerted:
+
 ![fail](/screenshots/failState.PNG?raw=true "No change in table and remaining stock displayed.")
